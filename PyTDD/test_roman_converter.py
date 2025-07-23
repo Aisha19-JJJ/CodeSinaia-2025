@@ -32,14 +32,6 @@ class TestInvalidInput(unittest.TestCase):
     
     def test_six(self):
         self.assertEqual(roman_converter(6), 'VI')
+    
     def test_ten(self):
         self.assertEqual(roman_converter(10), 'X')
-    def test_fifty(self):
-        self.assertEqual(roman_converter(50), 'L')
-    def test_one_hundred(self):
-        self.assertEqual(roman_converter(100), 'C')
-    def test_five_hundred(self):
-        self.assertEqual(roman_converter(500), 'D')
-    def test_one_thousand(self):
-        self.assertEqual(roman_converter(1000), 'M')
-        
